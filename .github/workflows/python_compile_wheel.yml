@@ -1,4 +1,4 @@
-name: Build chatglm Wheels 
+name: Build windows chatglm Wheels 
 
 on: workflow_dispatch
 env:
