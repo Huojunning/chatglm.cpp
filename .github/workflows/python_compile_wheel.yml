@@ -33,7 +33,7 @@ jobs:
         # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
 
         # 开启gpu 加速 -DGGML_CUBLAS=ON
-        run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DCHATGLM_ENABLE_TESTING=ON -DGGML_CUBLAS=ON
+        run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DCHATGLM_ENABLE_TESTING=ON
 
       - name: Build
         # Build your program with the given configuration
